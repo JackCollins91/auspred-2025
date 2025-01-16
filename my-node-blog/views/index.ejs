@@ -1,0 +1,33 @@
+<!-- filepath: /c:/Users/jocollin/Documents/repos/auspred-2025/my-node-blog/views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUSPRED 2025</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>AUSPRED 2025</h1>
+        <h1>Predicting the 2025 Australian Federal Election with Machine Learning</h1>
+    </header>
+    <div class="container">
+        <h1>Latest Blog Post</h1>
+        <% if (recentPost) { %>
+            <div>
+                <div><%- recentPost.content %></div>
+            </div>
+        <% } else { %>
+            <p>No recent posts available.</p>
+        <% } %>
+        <h2>Past Blog Posts</h2>
+        -----
+        <ul>
+            <% pastPosts.forEach(post => { %>
+                <li><a href="/post/<%= post.title %>"><%= post.title %></a></li>
+            <% }) %>
+        </ul>
+    </div>
+</body>
+</html>
