@@ -47,3 +47,8 @@ my-node-blog
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or bug fixes.
+
+## Deploy
+```
+   gcloud app deploy
+```
