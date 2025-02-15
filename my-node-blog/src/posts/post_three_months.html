@@ -100,6 +100,15 @@
 <p>The TPP swing comes from Poll Bludger, which uses the flow of preferences from the 2022 election to convert multi-party polls to TPP values. Another approach is to use polls where respondents fill out a mock ballot card, but for some reason, the ML models were more accurate with the former method, so I continue using it. I can only speculate why: Perhaps a preference-flow survey is more complex than a simple single-party survey, introducing more error? Or maybe modeling preference flows is more sensitive to small changes in the distribution of preference ranks?</p>
 </li>
 <li>
+<p>
+    I experimented with artificially inflating LNP's lead in the polls just in case the polls are underestimating the LNP like in 2019. I gave LNP an extra two standard deviations
+    (approximately three percentage points) which means a swing of 5.76, which is about what Rudd got against Howard in 2007. The model was still bullish on ALP winning the most seats,
+     but the probability of the LNP winning most seats went from 0% to 7.7% (still no chance of an LNP majority). 
+     For comparison, putting that enlarged swing into a traditional Pendulum yields LNP 76, ALP 59, and OTH 15. 
+     So the model is very firm in its expectation that an incumbency effect will greatly help the ALP this election.
+</p>
+</li>
+<li>
 <p>How have the various predictors I use varied over elections? Here's a figure:</p>
 </li>
 </ul>
