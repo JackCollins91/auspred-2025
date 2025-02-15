@@ -88,7 +88,7 @@ Date: 16/01/2025
 <h2>Predicted Seat Probabilities</h2>
 <div id="include"></div>
 <script>
-    fetch('styled_probabilities_summary_six_months.html')
+    fetch('styled_probabilities_summary_six_months')
         .then(response => response.text())
         .then(data => {
             document.getElementById('include').innerHTML = data;
