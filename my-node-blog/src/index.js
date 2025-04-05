@@ -25,7 +25,7 @@ function getPosts() {
                 file: file
             };
         });
-    return posts.sort((a, b) => b.title.localeCompare(a.title));
+        return posts.sort((a, b) => a.title.localeCompare(b.title));
 }
 
 app.get('/', (req, res) => {

@@ -1,0 +1,162 @@
+<h1>Predicting the 2025 Australian Federal Election with Machine Learning  at One Month Out</h1>
+<p><strong>Author</strong>: John "Jack" Collins<br />
+<strong>Email</strong>: [redacted]  </p>
+<hr />
+<h2>Foreword</h2>
+<p>This forecasting model is based on a research paper authored by me, John Collins, which is expected to be published in April 2025. In that paper, I demonstrated that these machine learning (ML) models could have retrospectively predicted Australian federal elections from 2010 to 2022 with greater accuracy than the traditional Mackerras Pendulum. However, those predictions were made after the fact (although striving to replicate the information available at the time).  </p>
+<p>This marks the first instance of applying these models "for real," making it an experiment to assess their performance under real forecasting conditions.  </p>
+<p>While some level of inaccuracy is inevitable, the key question is whether this model outperforms alternative forecasting approaches. In Australia, the Mackerras Pendulum remains the primary election forecasting model—<a href="https://antonygreen.com.au/fed25-election-new-seat-margins-and-electoral-pendulums/">Antony Green's adaptation</a> is an excellent example. Additionally, YouGov may publish another MRP forecast, which will be worth reviewing alongside other independent forecasters.  </p>
+<h3>Benefits of This Model</h3>
+<ol>
+<li><strong>Rigorously Tested</strong>: The foundational research paper (coming April 2025) compared this method to numerous alternatives, confirming its superiority.  </li>
+<li><strong>Proven Historical Accuracy</strong>: It consistently outperformed the Pendulum for elections from 2010 to 2022, offering optimism for 2025.  </li>
+<li><strong>Low Cost &amp; Reproducibility</strong>: The model operates on a budget of $0, relying solely on publicly available data. Anyone with coding skills can replicate or experiment with it.  </li>
+<li><strong>Timeliness</strong>: Forecasts reached peak accuracy six to three months before an election, potentially leaving enough time to influence outcomes.  </li>
+</ol>
+<h3>Why Election Forecasting Matters</h3>
+<p>Accurately predicting election outcomes can empower voters to act strategically. By revealing which seats and issues matter most before the election, voters gain an additional opportunity to influence politicians' priorities.  </p>
+<hr />
+<h2>The Bottom Line</h2>
+<p>As of <strong>April 5th, 2025</strong>, this forecasting model predicts the following for the <strong>Australian Federal Election on May 3rd, 2025</strong>:<br /> (Note: the precise election date was called since the previous forecast).
+- <strong>100% chance</strong> that the Australian Labor Party (ALP) will win the most seats in the Lower House.<br />
+- <strong>43.7% chance</strong> that the ALP will form a majority government (≥76 seats).  </p>
+<p>This is based on an estimated swing of <strong>0.43</strong> against the ALP which is based on polls which finished collection between 14th March and 1st April 2025.</p>
+<p><img alt="Predicted Seat Probabilities" src="probabilities_2025_one_months.png" /></p>
+<h2>Why is the model so sure ALP will get most seats?</h2>
+<p>The model is trained on the 2019–2022 elections. In those contests, the incumbent (LNP) often performed better than polling suggested. This incumbency advantage isn't exclusive to the LNP—seats held by the ALP also performed better than ALP polling indicated. I speculate that the model expects the ALP to benefit from a similar incumbency advantage. However, it's important to note that incumbency advantage does not always materialize: the LNP underperformed expectations in 2016, and the ALP did worse than expected in 2007.</p>
+<p>Additionally, the model suggests that, on average, the crossbench is more likely to stay the same or expand rather than revert to the LNP. It's understandable why an ML model trained on historical data would develop this expectation—crossbench seats usually either remain with their incumbent or, as seen in 2022, expand significantly. Nevertheless, this could be the first election in which we see a major swing away from minor parties back to the major parties. Traditional pendulums and even this ML model rely on national-level Two-Party-Preferred figures, which may not accurately capture major-minor contests that are highly localized.</p>
+<p>In short, this is why the ML model makes the predictions it does. However, there's room for it to be wrong—if crossbenchers revert to the LNP or if the ALP does not benefit from an incumbency advantage, this forecast could miss the mark.</p>
+<p>Thanks for following this experiment. Now we wait and see!</p>
+<hr />
+<h2>Final Remarks and Predictions Before the Election</h2>
+<p>
+    This will be my final forecast before the election, and the machine learning model from my IJF paper remains bullish that the ALP will win. As I've said before, this is still an experimental process, and this election will be telling as to whether the inner workings
+    of the model are suited for future use or need further refinement. I'd like to use this section to outline a few predictions about how the election might unfold, so that they can be evaluated in retrospect after May 3rd.
+</p>
+<p>
+    Let's begin with the typical way to predict an election. A traditional Mackerras Pendulum using the TPP polling average I've collected as of one month to election day would give the ALP a plurality, but not a majority, around 74 seats. But how accurate are these models? 
+    Since 2007, the Mackerras Pendulum, one month out from election day, has consistently overestimated the ALP's seat count by an average of 16 seats (see figure). An interesting side note for keen observers: during this period, the Pendulum was more accurate 
+    three months out than one month out. If polls are vulnerable to systematic error, perhaps due to voters becoming more engaged closer to election day and there's a correlation between willingness to answer polls and left-leaning partisanship, this could explain 
+    the overestimation. 
+</p>
+<p>
+    Australian pollsters are professionals and are aware of these concerns. They actively work to mitigate such biases, but survey error remains a significant challenge. If TPP polls are systematically biased toward the ALP, then an estimate of 74 seats could end 
+    up closer to 58, a substantial loss. Personally, I'd be convinced the polls are no longer biased only if we see consistent error reduction from pollsters who've implemented new protocols (many already have since 2019). That assessment will take 
+    a few more federal elections to confirm. In the meantime, we can only speculate, but we can do so rigorously.
+</p>
+<p>
+    What are the chances that the polls and the Pendulum for 2025 are *not* overestimating the ALP, and that it is in fact likely they will at least achieve a plurality? One possible reason is the size of the crossbench. The traditional Pendulum assumes 
+    major-vs-major contests and largely ignores the crossbench. In 2025, with an unprecedentedly large crossbench, some seats that might have swung back to the LNP due to ALP dissatisfaction could instead remain with or go to the Greens, the Teals, 
+    or other independents.
+</p>
+<p>
+    I'm skeptical that we currently have any reliable way to predict outcomes in major-vs-minor contests. Out of the 18 million or so eligible Australian voters, pollsters work hard just to get about 2,000 respondents for a solid TPP estimate. Trying to hone in 
+    on a single seat of 150,000 voters is far more difficult. To the best of my knowledge, I haven't seen any poll of a Teal seat with a sample size greater than 2,000. Ideally, we'd need several large polls for each crossbench seat. As it stands, I don't believe 
+    such data exists, so we're flying blind when it comes to predicting the crossbench contests via surveys.
+</p>
+<p>
+    Another reason the ALP might avoid a dramatic underperformance this time is that they are the incumbents, not to mention a first-term government. From 2013 to 2022, the LNP held incumbency. Could it be that past apparent ALP bias was really a 
+    result of the LNP's incumbent advantage?
+</p>
+<p>
+    It's true that in 2007 and 2010, polls overestimated an ALP win. But perhaps those were special circumstances: in 2007, a predicted landslide became a standard-sized ALP win; in 2010, a narrow ALP majority became a tie. If we treat those as outliers (not 
+    that I endorse cherry-picking), and treat 2013-2022 as “normal” contests, we might convince ourselves that the ALP underperformed because they were facing a slow-to-change electorate that favored incumbents. 
+</p>
+<p>
+    In that case, perhaps the ALP will benefit from that same incumbency advantage in 2025. I suspect my own machine learning model has identified this very pattern, which is why this election offers a useful test case for that theory.
+</p>
+<p>
+    A final reason to expect an ALP win is simply that the polls might be right. Since the shock of 2019, pollsters haven't been idle. They've refined their sampling methods and adjusted weighting variables. It's possible that, by now, they've identified the 
+    right factors to account for, and the polls this time will prove accurate.
+</p>
+<p>
+    So, no more predictions from me. I'm going to let the model play out and evaluate its performance against the benchmark: the Pendulum. Whatever the result, I think we're poised to learn something valuable about the nature of Australian elections—
+    especially in relation to this emerging crossbench phenomenon. I'll close by saying that there are compelling reasons to doubt a prediction for either major party to get the plurality, so if you care about politics, the best thing you can do is still
+    to get out and take action. 
+</p>
+<p>
+    Questions and email are welcome. 
+</p>
+
+
+<h2>Reliability of the Forecast</h2>
+<p>This is the first real-world test of this model, making it experimental.  </p>
+<h3>Historical Performance</h3>
+<ul>
+<li><strong>Accuracy</strong>: At six months lead time for elections from 2010 to 2022, the model's seat-count predictions had errors ranging from:  </li>
+<li><strong>Overestimating ALP by 4 seats (2022)</strong>  </li>
+<li><strong>Underestimating ALP by 16 seats (2016)</strong>  </li>
+</ul>
+<p>Despite these errors, the model correctly predicted which party won the most seats in all elections except 2019, where it forecasted a slim ALP majority (a closer result than the Pendulum's predicted ALP landslide).  </p>
+<ul>
+<li><strong>Seat-Level Accuracy</strong>: The model achieves <strong>88% accuracy</strong> for individual seat predictions, slightly outperforming the Mackerras Pendulum (87%)—a difference of approximately 1.5 seats. Noteably, in 2019, the Pendulum mis-classified 26 seats, while this ML model only misclassified 11. </li>
+</ul>
+<h3>Potential Weaknesses</h3>
+<ol>
+<li><strong>Crossbench Complexity</strong>: With an unusually large crossbench (15 seats), both this model and the Pendulum struggle to predict outcomes for seats held by or likely to be won by non-major parties.  </li>
+<li><strong>Teal Independents</strong>: The rise of Teal Independents presents a unique challenge, as historical data may fail to capture this new dynamic.  </li>
+<li><strong>Redistribution Effects</strong>: Changes due to redistributions, such as the creation of the Western Australian seat of Bullwinkel, pose additional uncertainty. For Bullwinkel, I used margin estimates by <a href="https://antonygreen.com.au/fed25-election-new-seat-margins-and-electoral-pendulums/">Antony Green</a> rather than historical data.  </li>
+</ol>
+<hr />
+<h2>How the Models Work</h2>
+<h3>Overview of the Approach</h3>
+<ol>
+<li><strong>Polling Data</strong>:  </li>
+<li>Calculate the Two-Party-Preferred (2PP) polling swing between the ALP and LNP using <a href="https://www.pollbludger.net/fed2025/bludgertrack/polldata.htm">Poll Bludger</a>.  </li>
+<li>
+<p>Incorporate state-level 2PP polls where available.  </p>
+</li>
+<li>
+<p><strong>Pendulum Predictions</strong>:  </p>
+</li>
+<li>Use 2PP swings to predict seat changes based on the Mackerras Pendulum.  </li>
+<li>
+<p>Crossbench seats are assumed to remain with incumbents.  </p>
+</li>
+<li>
+<p><strong>Machine Learning</strong>:  </p>
+</li>
+<li>An <strong>Extra Trees Classifier</strong> refines pendulum predictions using additional features, including:  <ul>
+<li>Polling data  </li>
+<li>Demographic data (e.g., rent, unemployment)  </li>
+<li>Economic indicators (GDP growth, inflation)  </li>
+<li>Historical election results  </li>
+<li>State/Territory identifiers  </li>
+</ul>
+</li>
+<li>
+<p>Train the model on data from the previous two elections to predict outcomes for 2025.  </p>
+</li>
+<li>
+<p><strong>Simulations</strong>:  </p>
+</li>
+<li>For each seat, calculate the probability of being won by ALP, LNP, or OTH.  </li>
+<li>Simulate 1,000 elections based on these probabilities to estimate possible seat distributions.  </li>
+<li>Calculate the percentage of simulations in which the ALP (as the incumbent) won majority or had the most seats. </li>
+</ol>
+<hr />
+<h2>Predicted Seat Probabilities</h2>
+<div id="include"></div>
+<script>
+    fetch('one_month_styled_probabilities_summary.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('include').innerHTML = data;
+        });
+</script>
+<hr />
+<h2>Other Details</h2>
+<ul>
+<li>
+<p>The TPP swing comes from Poll Bludger, which uses the flow of preferences from the 2022 election to convert multi-party polls to TPP values. Another approach is to use polls where respondents fill out a mock ballot card, but for some reason, the ML models were more accurate with the former method, so I continue using it. I can only speculate why: Perhaps a preference-flow survey is more complex than a simple single-party survey, introducing more error? Or maybe modeling preference flows is more sensitive to small changes in the distribution of preference ranks?</p>
+</li>
+<li>
+<p>I use only the past two elections to train the model, even though I could include up to six. Testing both approaches, I found that limiting it to two produced better results. My theory is that elections from the distant past are less relevant for guiding the model. </p>
+</li>
+<li>
+<p>How have traditional pendulums fared in past elections? Here's a figure comparing the Pendulum's predicted outcomes versus the actual outcomes in 2019–2022 (the two elections used to train the model):</p>
+</li>
+</ul>
+<h2><img alt="Pendulum vs Actuals" src="one_month_pendulum-vs-actuals.png" /></h2>
+<h2>References</h2>
+<p>Collins, John (2025), "Predicting Australian federal electoral seats with machine learning", International Journal of Forecasting, ISSN 0169-2070, https://doi.org/10.1016/j.ijforecast.2025.02.002.</p>
